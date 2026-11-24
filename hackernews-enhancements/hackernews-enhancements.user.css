@@ -4,7 +4,7 @@
 @version        0.3.0
 @author         Florian Goße
 @homepageURL    https://github.com/floriangosse/usercss-styles/tree/main/hackernews-enhancements
-@updateURL      https://github.com/floriangosse/usercss-styles/raw/main/hackernews-enhancements/hackernews-enhancements.user.css
+@updateURL      https://raw.githubusercontent.com/floriangosse/usercss-styles/main/hackernews-enhancements/hackernews-enhancements.user.css
 ==/UserStyle== */
 
 @-moz-document domain("news.ycombinator.com") {
