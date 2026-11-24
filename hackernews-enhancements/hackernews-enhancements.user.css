@@ -1,0 +1,62 @@
+/* ==UserStyle==
+@name           Hacker News - Enhancements
+@namespace      github.com/floriangosse
+@version        0.3.0
+@author         Florian Goße
+@homepageURL    https://github.com/floriangosse/usercss-styles/tree/main/hackernews-enhancements
+@updateURL      https://github.com/floriangosse/usercss-styles/raw/main/hackernews-enhancements/hackernews-enhancements.user.css
+==/UserStyle== */
+
+@-moz-document domain("news.ycombinator.com") {
+    body {
+        background-color: #fafafa;
+    }
+
+    #hnmain {
+        max-width: 880px;
+        box-shadow: 0px 0px 4px 2px #dedede;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    #hnmain > tbody > tr:nth-child(1) > td > table {
+        padding: 8px !important;
+    }
+
+    #hnmain > tbody > tr:nth-child(3) > td > table {
+        width: 100%;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .spacer {
+        height: 10px !important;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: #060606;
+        }
+
+        #hnmain {
+            background-color: #0A0A0A;
+            box-shadow: 0px 0px 4px 2px #222222;
+        }
+
+        a:link {
+            color: #ffffff;
+        }
+
+        .title {
+            color: #737373;
+        }
+
+        .hnmore a:link, a:visited {
+            color: #7e7e7e;
+        }
+
+        .c00, .c00 a:link {
+            color: #ffffff;
+        }
+    }
+}
